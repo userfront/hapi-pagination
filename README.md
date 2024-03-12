@@ -1,41 +1,25 @@
 # hapi-pagination
 
-[![NPM Version](https://img.shields.io/npm/v/hapi-pagination.svg)](https://npmjs.org/package/hapi-pagination)
-[![Build Status](https://travis-ci.org/fknop/hapi-pagination.svg)](https://travis-ci.org/fknop/hapi-pagination)
-[![Coverage Status](https://coveralls.io/repos/fknop/hapi-pagination/badge.svg?branch=master&service=github)](https://coveralls.io/github/fknop/hapi-pagination?branch=master)
-
+**Forked from the original hapi-pagination at https://github.com/fknop/hapi-pagination**
 
 Hapi plugin to handle 'custom' resources pagination in json only.
+Version 5.0.0 is updated for use with @hapi/hapi 21.3.3 and later, and updates all dependencies to the latest compatible versions to resolve vulnerabilities.
 
 ## How to install
 
 ```
-npm install hapi-pagination --save
+npm install @userfront/hapi-pagination --save
 ```
-## Version 4.x.x
-
-Version 4.x.x is inteded for use with scoped @hapi packages (v19, requires Node versions >= 12).
-
-## Version 3.x.x
-
-Version 3.x.x is inteded for use with scoped @hapi packages (v18).
-
-## Version 2.0.0
-
-Version 2.0.0 is intended for use with Hapi 17.x.x and above, do not use this version for version below 17.x.x of Hapi.
 
 ## Contribute
 
 Post an issue if you encounter a bug or an error in the documentation.
 Create a new pull request if you want to add a new functionality or do any change that might get the plugin better.
 
-I'm looking for new ideas to make the plugin better, if you have any, post an issue !
-
-The plugin is supporting get method only for now, tell me if you need it tu support other methods too.
-
 ## CHANGELOG
 
-Check the release log: https://github.com/fknop/hapi-pagination/releases
+For versions prior to 5.0.0, check the original package's release log: https://github.com/fknop/hapi-pagination/releases
+For versions 5.0.0 and later, check CHANGELOG.md
 
 ## How to use
 

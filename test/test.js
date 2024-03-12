@@ -3,7 +3,7 @@ const Code = require('@hapi/code')
 const Lab = require('@hapi/lab')
 const lab = (exports.lab = Lab.script())
 const Hapi = require('@hapi/hapi')
-const Joi = require('@hapi/joi')
+const Joi = require('joi')
 const { describe, it } = lab
 const expect = Code.expect
 
@@ -60,7 +60,7 @@ const testJoi = Joi.extend(
 const register = () => {
   const connection = { host: 'localhost' }
   const server = new Hapi.Server(connection)
-  server.validator(require('@hapi/joi'))
+  server.validator(require('joi'))
 
   server.route({
     method: 'GET',
